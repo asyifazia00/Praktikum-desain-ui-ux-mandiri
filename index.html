@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASyifa Fauziah_UI/UX Pembuatan Web</title>
+
+    <style>
+        html{
+            scroll-behavior: smooth;
+
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        h2 {
+            color:#333;
+            text-align: center;
+        }
+        h3 {
+            color: #333;
+            margin-top: 0;
+            text-align: center;
+        }
+        
+        p{
+            text-align:center;
+            color:#000;
+        }
+
+        img{ 
+            display:block;
+            margin:20px auto;
+            margin-top: 10px;
+            background-color:#808080;
+        }
+
+        .intro{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+            gap:16px;
+            padding:16px;
+            margin:20px 0;
+            border:1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f9f9f9
+        }
+
+        .intro-iconn{
+            flex-shrink: 0;
+            width: 60px;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 30px;
+            background-color: #e0e0e0;
+            border-radius: 50%;
+        }
+        .intro-text{
+            flex:1;
+        }
+        .intro-text h3{
+            margin: 0 0 3px;
+            color: #333;
+            text-align: center;
+        }
+
+        .intro-text p {
+            margin: 0;
+            color:#555;
+            text-align : center;
+            line-height: 1.5;
+            font-style: bold;
+        }
+
+        footer p {
+            text-align: center;
+            color: #fff;
+        }
+
+        .member {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content:center;
+            gap:16px;
+            margin-top:20px;
+        }
+
+        .card img {
+            margin: 20px auto ;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 12px;
+            background-color: #808080;
+            margin: 0 auto 12px;
+        }
+
+        .card {
+            display: flex;
+            flex-direction:column;
+            width:calc((100% - 32px) / 3);
+            box-sizing: border-box;
+            border: 1px solid #333;
+            border-radius: 8px;
+            padding: 16px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+
+        .card h3 {
+            margin: 0 0 8px;
+        }
+
+        .role{
+            align-self:center;
+            padding: 3px 12px;
+            margin-bottom: 12px;
+            border-radius: 999px;
+            background-color: #e3edfc;
+            color: #0b57d0;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        .card ul {
+            margin: 0 0 12px; 
+            padding: 8px 0 0;
+            text-align: center;
+        }
+
+        @media (max-width: 500px) {
+            .card {
+                width:100%; 
+            }
+        }
+
+        .motto {
+            margin-top:auto;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+            border-top: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #fff;
+        }
+
+        .motto-icon {
+            flex-shrink: 0;
+            font-size: 20px;
+        }
+        
+        .motto p {
+            margin: 0;
+            text-align: left;
+            font-size: 14px;
+            font-style: italic;
+            color: #555;
+        }
+
+        footer {
+            margin-top: 30px;
+            padding: 20px;
+            background-color: #0b57d0;
+            text-align: center;
+        }
+
+        footer p{
+            margin: 4px 0;
+            color: #fff;
+            font-size: 14px;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+
+    <main class="container">
+    <header>
+        <div id="id"></div>
+        <div class="container">
+        <h1 style="margin-bottom: 10px;">STT Terpadu Nurul Fikri</h1>
+        <p style="margin-top: 0px; margin-bottom: 10px;"> Mahasiswa Semester 1 Prodi Teknik Informatika</p>
+        </div>
+    </header>
+    
+    <section class="container">
+        <img src="assets/img/IMG_0378.PNG" width="354" height="472 margin-top= 10px">
+    </section>
+
+    <section>
+        <h1 style="text-align: left ; margin: 8px;; padding:0;">Kelompok 3</h1>
+        <h3 style="text-align: left; margin: 8px; padding: 0;">Desain UI/UX Pemrograman WEB</h3>
+    </section>
+
+    <ul style="padding-left: 20; margin: 10;">
+        <li style="text-align: left;"> Juice
+            <ul style="padding-left: 20px;">
+                <li style="text-align: left;">Apel: 5000</li>
+                <li style="text-align: left;">Orange: 4000</li>
+                <li style="text-align: left;">Grape: 8000</li>
+            </ul>
+        </li>
+        <li> snacks
+            <ul>
+                <li>Kue: 9000</li>
+                <li>Nasi padang: 12000</li>
+                <li>Dessert: 20000</li>
+            </ul>
+        </li>
+    </ul>
+    
+    <table>
+        <tr>
+            <head>
+                <li>Nama: Asyifa Fauziah</li>
+                <li>NIM: 0110226132</li>
+                <li>Prodi: Teknik Informatika</li>
+            </head>
+        </tr>
+
+            <body>
+                <tr>
+                    <td>Arkan Zahran Ramadhan</td>
+                    <td>NIM: 0110226139</td>
+                </tr>
+            </body>
+            <body>
+                <tr>
+                    <td>Arga Uzumaki Dwiyan</td>
+                    <td>NIM: 0110226086</td>
+                </tr>
+            </body>
+            <body>
+                <tr>
+                    <td>Asyifa Fauziah</td>
+                    <td>NIM: 0110226132</td>
+                </tr>
+            </body>
+            <body>
+                <tr>
+                    <td>Aufa Dzaky Zuhdi Wicaksono</td>
+                    <td>NIM: 0110226021</td>
+                </tr>
+            </body>
+            <body>
+                <tr>
+                    <td>Christian Soya Niron</td>
+                    <td>NIM: 0110226118</td>
+                </tr>
+            </body>
+
+            <nav>
+                <nav class="navbar">
+                    <div class="link"></div>
+                    <ul class="nav-links"></ul>
+                    <li><a href="file:///C:/xampp/htdocs/Kelompok%203/index.html">Kelompok 3</a></li>
+                </nav>
+            </nav>
+    </table>
+    
+</main>
+</body>
+</html>
